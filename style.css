@@ -1,13 +1,31 @@
 body {
-  background-color: white;
-  color: #222831;
+  background-color: #222831;
+  color: #ffffff;
   font-family: "Merriweather Sans", sans-serif;
   text-align: center;
   width: 100%;
 }
 
+.skills h2 {
+  color: #00adb5;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #222831;
+}
+
+.skills p {
+  color: #00adb5;
+}
+
 h4 {
   color: white;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
 
 ul {
@@ -17,7 +35,7 @@ ul {
 li {
   display: inline;
   list-style-type: none;
-  padding: 20px;
+  padding: 15px;
 }
 
 a {
@@ -30,12 +48,15 @@ a:hover {
   transition: 0.5s;
 }
 
-.welcome,
-.portfolio {
+.logo {
+  margin: 0%;
+}
+
+.welcome {
   background: rgba(0, 173, 181, 0.3);
   border-radius: 10px;
   padding: 20px;
-  margin: 10px auto;
+  margin: 50px auto;
 }
 
 .skills {
@@ -43,6 +64,10 @@ a:hover {
   border-radius: 10px;
   margin: 20px;
   padding: 10px 0;
+}
+
+.portfolio {
+  margin-top: 50px;
 }
 
 .projects {
@@ -109,4 +134,42 @@ a:hover {
   color: white;
   font-size: 18px;
   margin-top: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 50px 10px;
+  background-color: rgba(0, 173, 181, 0.3);
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.start,
+.interested,
+.action {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.start {
+  margin: 20px auto;
+}
+
+.action-button {
+  color: #ffffff;
+  font-size: 20px;
+  border: 3px solid #222831;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.action-button:hover {
+  background-color: #222831;
+  color: #ffffff;
 }

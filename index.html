@@ -13,10 +13,10 @@
   <div class="container">
     <header>
       <nav>
-        <div>
+        <div class="logo">
           <img class="logo" src="./imgs/ah_logo_weiss.png" alt="Logo" />
         </div>
-        <div>
+        <div class="navbar">
           <ul class="border-top border-bottom">
             <li>
               <a href="./index.html">Home</a>
@@ -39,14 +39,20 @@
         </p>
       </section>
       <section class="skills">
-        <img src="./imgs/frontend.png" alt="">
-        <h2>Frontend Development</h2>
-        <h3>Languages:</h3>
-        <p class="skills">HTML5, CSS3, JavaScript, React</p>
-        <h3>Dev Tools:</h3>
-        <p class="skills">Bootstrap <br> Codepen <br> GitHub <br> Visual Studio Code</p>
+        <div class="skill-block">
+          <img src="./imgs/frontend.png" alt="">
+          <h2>Frontend Development</h2>
+        </div>
+        <div class="skill-block">
+          <h3>Languages:</h3>
+          <p> HTML5, CSS3, JavaScript, React</p>
+        </div>
+        <div class="skill-block">
+          <h3>Dev Tools:</h3>
+        <p> Bootstrap <br> Codepen <br> GitHub <br> Visual Studio Code</p>
+        </div>
       </section>
-      <section class="portfolio" id="portfolio">
+      <section class="portfolio border-top border-bottom" id="portfolio">
         <h2>My recent projects</h2>
         <div class="projects">
           <div class="image">
@@ -54,14 +60,14 @@
             <div class="image__overlay image__overlay--primary">
               <div class="image__title"><h4>A weather App built with React</h4></div>
                 <a href="https://iceblue-react-weather-app.netlify.app/" target="_blank"><button class="image__button btn">Visit Website</button></a> 
-              </div>
+            </div>
           </div>
           <div class="image">
             <img class="image__img shadow" src="./imgs/dictionary_react.JPG" alt="Dictionary App built with React">
             <div class="image__overlay image__overlay--primary">
               <div class="image__title"><h4>A Dictionary App built with React</h4></div>
                 <a href="https://champagne-dictionary-react.netlify.app/" target="_blank"><button class="image__button btn">Visit Website</button></a> 
-              </div>
+            </div>
             </div>
             <div class="image">
               <img class="image__img shadow" src="./imgs/interactive_pricing_react.JPG" alt="Interactive Pricing Component built with React">
@@ -70,7 +76,6 @@
                   <a href="https://champagne-dictionary-react.netlify.app/" target="_blank"><button class="image__button btn">Visit Website</button></a> 
                 </div>
               </div>
-            </div>
             <div class="image">
               <img class="image__img shadow" src="./imgs/weather_js.JPG" alt="Weather App built with JavaScript">
               <div class="image__overlay image__overlay--primary">
@@ -82,7 +87,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="border-bottom">
       <div class="contact" id="contact">
         <div class="start">
           <h1>
@@ -107,6 +112,7 @@
   </div>
 </body>
 <footer>
-  <a href="#">Impressum</a>
+  <a class="footer" href="./impressum.html">Impressum</a>
+  <a class="footer" href="./datenschutz.html">Datenschutz</a>
 </footer>
 </html>

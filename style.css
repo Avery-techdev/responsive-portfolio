@@ -6,6 +6,11 @@ body {
   width: 100%;
 }
 
+nav {
+  display: block;
+  margin: 0 auto;
+}
+
 .skills h2 {
   color: #00adb5;
   padding-bottom: 20px;
@@ -48,8 +53,9 @@ a:hover {
   transition: 0.5s;
 }
 
-.logo {
-  margin: 0%;
+.navbar {
+  display: block;
+  margin: 0 auto;
 }
 
 .welcome {
@@ -68,6 +74,7 @@ a:hover {
 
 .portfolio {
   margin-top: 50px;
+  padding: 20px 0;
 }
 
 .projects {
@@ -81,7 +88,7 @@ a:hover {
   position: relative;
   width: 364px;
   max-width: 100%;
-  margin: 15px auto;
+  margin: 10px auto;
 }
 
 .image__img {
@@ -172,4 +179,88 @@ a:hover {
 .action-button:hover {
   background-color: #222831;
   color: #ffffff;
+}
+
+.footer {
+  margin: 20px;
+}
+
+@media screen and (min-width: 425px) {
+  .skills {
+    margin: 40px;
+  }
+
+  .skill-block {
+    margin: 30px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  ul {
+    font-size: 20px;
+  }
+
+  .skills {
+    margin: 40px 150px;
+  }
+
+  .skill-block {
+    margin: 50px 0;
+  }
+
+  .portfolio {
+    padding: 40px 0;
+  }
+
+  .projects {
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .logo {
+    margin: 0 0 0 auto;
+  }
+  
+  .navbar {
+    margin: 0 auto 0 0;
+  }
+  
+  .welcome {
+    margin: 100px auto;
+  }
+
+  .skills {
+    margin: 100px 250px;
+  }
+
+  .portfolio {
+    padding: 40px 50px;
+  }
+
+  .projects {
+    margin-top: 40px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .welcome {
+    margin: 150px;
+  }
+
+  .skills {
+    margin: 100px 350px;
+  }
+
+  .contact {
+    margin:100px  150px;
+  }
+
 }

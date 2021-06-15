@@ -65,6 +65,22 @@ a:hover {
   margin: 50px auto;
 }
 
+.about {
+  background-color: #393e46;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+.me {
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.me-text {
+  padding-top: 50px;
+}
+
 .skills {
   background-color: #eeeeee;
   border-radius: 10px;

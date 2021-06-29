@@ -1,5 +1,5 @@
 body {
-  background-color: #222831;
+  background-color: #185059;
   color: #ffffff;
   font-family: "Merriweather Sans", sans-serif;
   text-align: center;
@@ -12,8 +12,8 @@ nav {
 }
 
 .skills h2 {
-  color: #00adb5;
-  padding-bottom: 20px;
+  color: #185059;
+  padding: 20px 0;
 }
 
 h3 {
@@ -44,12 +44,12 @@ li {
 }
 
 a {
-  color: #00adb5;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:hover {
-  color: white;
+  color: #eac435;
   transition: 0.5s;
 }
 
@@ -59,7 +59,8 @@ a:hover {
 }
 
 .welcome {
-  background: rgba(0, 173, 181, 0.3);
+  border: 2px solid #ffffff;
+  color: #ffffff;
   border-radius: 10px;
   padding: 20px;
   margin: 50px auto;
@@ -80,7 +81,7 @@ a:hover {
 }
 
 .skills {
-  background-color: #eeeeee;
+  background-color: #ffffff;
   border-radius: 10px;
   margin: 20px;
   padding: 10px 0;
@@ -167,7 +168,7 @@ a:hover {
   flex-wrap: wrap;
   justify-content: flex-start;
   margin: 50px 10px;
-  background-color: rgba(0, 173, 181, 0.3);
+  border: 2px solid #ffffff;
   color: #ffffff;
   border-radius: 10px;
 }
@@ -189,14 +190,14 @@ a:hover {
 .action-button {
   color: #ffffff;
   font-size: 20px;
-  border: 3px solid #222831;
+  border: 3px solid #ffffff;
   border-radius: 25px;
   margin-bottom: 10px;
 }
 
 .action-button:hover {
-  background-color: #222831;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #185059;
 }
 
 .footer {

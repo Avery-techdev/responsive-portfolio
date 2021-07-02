@@ -17,11 +17,11 @@ nav {
 }
 
 h3 {
-  color: #222831;
+  color: #eac435;
 }
 
 .skills p {
-  color: #00adb5;
+  color: #222831;
 }
 
 h4 {
@@ -159,7 +159,7 @@ a:hover {
 }
 
 .btn:hover {
-  color: #00adb5;
+  color: ;
 }
 
 .contact {
@@ -188,7 +188,7 @@ a:hover {
 }
 
 .action-button {
-  color: #ffffff;
+  color: #eac435;
   font-size: 20px;
   border: 3px solid #ffffff;
   border-radius: 25px;

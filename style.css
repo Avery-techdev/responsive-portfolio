@@ -1,5 +1,10 @@
 body {
-  background-color: #185059;
+  background: linear-gradient(
+    135deg,
+    rgba(31, 112, 125, 1) 0%,
+    rgba(24, 80, 89, 1) 50%,
+    rgba(14, 47, 52, 1) 100%
+  );
   color: #ffffff;
   font-family: "Merriweather Sans", sans-serif;
   text-align: center;
@@ -24,13 +29,9 @@ h3 {
   color: #222831;
 }
 
-h4 {
-  color: white;
-}
-
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 ul {
@@ -53,14 +54,45 @@ a:hover {
   transition: 0.5s;
 }
 
+footer {
+  padding: 20px;
+}
+
+.logo {
+  animation: bounceIn 2s ease-in;
+  width: 300px;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes navMove {
+  0% {
+    transform: translate(0, -20vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 100%;
+  }
+}
+
 .navbar {
   display: block;
   margin: 0 auto;
+  animation: navMove 2s ease-in;
 }
 
-.welcome {
+.welcome,
+.about {
   border: 2px solid #ffffff;
-  color: #ffffff;
   border-radius: 10px;
   padding: 20px;
   margin: 50px auto;
@@ -69,10 +101,7 @@ a:hover {
 .me {
   border-radius: 10px;
   margin: 20px;
-}
-
-.about {
-  padding-top: 30px;
+  width: 280px;
 }
 
 .me-text {
@@ -160,6 +189,19 @@ a:hover {
 
 .btn:hover {
   color: #eac435;
+  animation: linkBounce 2s ease-in;
+}
+
+@keyframes linkBounce {
+  0% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .contact {
@@ -258,6 +300,11 @@ a:hover {
   .me-section {
     display: flex;
     padding: 0 30px;
+  }
+
+  .me {
+    margin-top: 50px;
+    margin-right: 50px;
   }
 
   .skills {

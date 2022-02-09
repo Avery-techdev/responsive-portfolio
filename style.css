@@ -36,9 +36,10 @@ p {
 
 ul {
   padding: 5px;
+  text-align: left;
 }
 
-li {
+.navbar li {
   display: inline;
   list-style-type: none;
   padding: 15px;
@@ -91,7 +92,7 @@ footer {
 }
 
 .welcome,
-.about {
+.about, .liveProject {
   border: 2px solid #ffffff;
   border-radius: 10px;
   padding: 20px;
@@ -116,6 +117,14 @@ footer {
   padding: 10px 0;
 }
 
+.todo {
+  padding: 0 20px;
+}
+
+.todo li {
+  padding: 5px 0;
+}
+
 .portfolio {
   margin-top: 50px;
   padding: 20px 0;
@@ -126,6 +135,10 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+}
+
+.projects, .portfolio h2 {
+  padding-bottom: 20px;
 }
 
 .image {

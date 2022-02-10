@@ -60,7 +60,7 @@ footer {
 }
 
 .logo {
-  animation: bounceIn 2s ease-in;
+  animation: bounceIn 1s ease-in;
   width: 300px;
 }
 
@@ -92,7 +92,8 @@ footer {
 }
 
 .welcome,
-.about, .liveProject {
+.about,
+.liveProject {
   border: 2px solid #ffffff;
   border-radius: 10px;
   padding: 20px;
@@ -137,7 +138,8 @@ footer {
   justify-content: flex-start;
 }
 
-.projects, .portfolio h2 {
+.projects,
+.portfolio h2 {
   padding-bottom: 20px;
 }
 

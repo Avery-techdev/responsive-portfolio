@@ -37,12 +37,22 @@ p {
 ul {
   padding: 5px;
   text-align: left;
+  list-style: none;
 }
 
 .navbar li {
   display: inline;
-  list-style-type: none;
   padding: 15px;
+}
+
+.todo li::before {
+  content: 'x';
+  padding-right: 5px;
+}
+
+.finalized li::before {
+  content: '✓';
+  padding-right: 5px;
 }
 
 a {
@@ -118,7 +128,7 @@ footer {
   padding: 10px 0;
 }
 
-.todo {
+.todo .finalized {
   padding: 0 20px;
 }
 

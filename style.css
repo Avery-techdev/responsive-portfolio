@@ -1,9 +1,9 @@
 body {
   background: linear-gradient(
     135deg,
-    rgba(31, 112, 125, 1) 0%,
-    rgba(24, 80, 89, 1) 50%,
-    rgba(14, 47, 52, 1) 100%
+    rgb(23, 24, 24) 0%,
+    rgb(41, 129, 143) 50%,
+    rgb(25, 83, 92) 100%
   );
   color: #ffffff;
   font-family: "Merriweather Sans", sans-serif;
@@ -46,12 +46,12 @@ ul {
 }
 
 .todo li::before {
-  content: 'x';
+  content: "x";
   padding-right: 5px;
 }
 
 .finalized li::before {
-  content: '✓';
+  content: "✓";
   padding-right: 5px;
 }
 
@@ -112,7 +112,6 @@ footer {
 
 .me {
   border-radius: 10px;
-  margin: 20px;
   width: 280px;
 }
 
@@ -145,7 +144,7 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: start;
 }
 
 .projects,
@@ -157,7 +156,7 @@ footer {
   position: relative;
   width: 364px;
   max-width: 100%;
-  margin: 10px auto;
+  margin: 10px;
 }
 
 .image__img {
@@ -337,7 +336,7 @@ footer {
   }
 
   .portfolio {
-    padding: 40px 50px;
+    padding: 40px 25px;
   }
 
   .projects {

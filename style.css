@@ -239,6 +239,10 @@ footer {
   border-radius: 10px;
 }
 
+.contact-item {
+  display: flex;
+}
+
 .start,
 .interested,
 .action {
@@ -327,7 +331,7 @@ footer {
   }
 
   .me {
-    margin-top: 50px;
+    margin-top: 75px;
     margin-right: 50px;
   }
 
